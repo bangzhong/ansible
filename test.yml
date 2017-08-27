@@ -1,6 +1,5 @@
-- name: Configure webserver with nginx
-  hosts: webservers
-  sudo: True
+- name: yml test
+  hosts: centos1
   tasks:
     - name: Create file
       file: path=/tmp/yallo state=touch
